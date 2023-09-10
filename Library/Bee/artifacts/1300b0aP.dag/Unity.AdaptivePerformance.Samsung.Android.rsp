@@ -1,6 +1,6 @@
 -target:library
--out:"Library/Bee/artifacts/1300b0aP.dag/Unity.Subsystem.Registration.dll"
--refout:"Library/Bee/artifacts/1300b0aP.dag/Unity.Subsystem.Registration.ref.dll"
+-out:"Library/Bee/artifacts/1300b0aP.dag/Unity.AdaptivePerformance.Samsung.Android.dll"
+-refout:"Library/Bee/artifacts/1300b0aP.dag/Unity.AdaptivePerformance.Samsung.Android.ref.dll"
 -define:UNITY_2022_3_6
 -define:UNITY_2022_3
 -define:UNITY_2022
@@ -300,12 +300,18 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.AdaptivePerformance.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.subsystemregistration@1.1.1/Runtime/SubsystemRegistration.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/Provider/Management/SamsungAndroidProviderConstants.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/Provider/Management/SamsungAndroidProviderLoader.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/Provider/Management/SamsungAndroidProviderSettings.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/Provider/SamsungGameSDKAdaptivePerformanceSubsystem.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/SamsungVariableRefreshRate.cs"
+"Library/PackageCache/com.unity.adaptiveperformance.samsung.android@5.0.0/Runtime/Scalers/AdaptiveVariableRefreshRate.cs"
 -langversion:9.0
-
+/unsafe+
 /deterministic
 /optimize+
 /debug:portable
@@ -322,4 +328,4 @@
 
 -warn:0
 
-/additionalfile:"Library/Bee/artifacts/1300b0aP.dag/Unity.Subsystem.Registration.UnityAdditionalFile.txt"
+/additionalfile:"Library/Bee/artifacts/1300b0aP.dag/Unity.AdaptivePerformance.Samsung.Android.UnityAdditionalFile.txt"

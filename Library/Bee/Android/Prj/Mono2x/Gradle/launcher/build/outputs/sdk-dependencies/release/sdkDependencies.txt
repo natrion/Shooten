@@ -3,12 +3,18 @@
 
 library {
   digests {
+    sha256: "\350\355\252\335\003-\f0d\314\204\252c`^\213eE\371\223\300a\024\207{\341E\264\fvWz"
+  }
+}
+library {
+  digests {
     sha256: "\357\226{\252x\356\200\270P\006`\364I\2038\250\331!b\350\372d\352K\230\264\311\235\235\341J\226"
   }
 }
 module_dependencies {
   module_name: "base"
   dependency_index: 0
+  dependency_index: 1
 }
 repositories {
   maven_repo {
