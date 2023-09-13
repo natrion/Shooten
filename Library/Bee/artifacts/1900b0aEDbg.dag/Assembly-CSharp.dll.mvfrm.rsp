@@ -18,8 +18,11 @@ Library\Bee\artifacts\mvdfrm\Unity.2D.Tilemap.Extras.Editor.ref.dll_C42BA467554B
 Library\Bee\artifacts\mvdfrm\Unity.2D.Tilemap.Extras.ref.dll_152C7FE740488E3E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Editor.ref.dll_EF3BE2E7D16DCC48.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Profiler.Editor.ref.dll_554A47B0719B3F6D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Samsung.Android.Editor.ref.dll_1500C2E742DCAF5B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Samsung.Android.ref.dll_093090EF098065B6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Editor.ref.dll_0C9585C96C7C5A92.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Extension.ref.dll_5C0BA588A6B413F0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.VRR.Extension.ref.dll_63CF3FC5C1879818.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.UI.Editor.ref.dll_FC5A681543D17FD2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.ref.dll_BD6BCB78384F1DF9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_4F7B73E229D756B2.mvfrm
@@ -37,7 +40,6 @@ Library\Bee\artifacts\mvdfrm\Unity.Notifications.iOS.ref.dll_D62165F1A8340576.mv
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_038935ADFCD4A11D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Profiling.Core.ref.dll_DB5DBB5A21097A5E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_07D7D7B7487B1198.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Subsystem.Registration.ref.dll_E45021852246D57F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_37E92434B2D8A6CF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_A4B478B3CE6E8702.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_0DA365A2C678CBF9.mvfrm
@@ -137,5 +139,8 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.VirtualTexturingModule.dll_BFDA5B39FBF6
 Library\Bee\artifacts\mvdfrm\UnityEngine.VRModule.dll_7C14597B30185C67.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_7CC4847743BE3063.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_AED31C7FB952A9C5.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Android.Gradle.dll_224AE2EC4E9EF837.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Android.GradleProject.dll_5503A8D3E28C27EE.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_0A2FF7BA6B19F7F5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.LowLevel.ILSupport.dll_2E40CE80E145E521.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_6B5854E2366B9BC5.mvfrm

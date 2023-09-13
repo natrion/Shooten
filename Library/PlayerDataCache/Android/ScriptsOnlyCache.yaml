@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - Coin
     - EnemyMonoBehaviour
@@ -16,35 +14,30 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.2D.Tilemap.Extras.Editor.dll:
-    - UnityEditor.Tilemaps.GameObjectBrush
-    - UnityEditor.Tilemaps.GroupBrush
-    - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.RandomBrush
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -133,19 +126,19 @@ ScriptsOnlyBuild:
     methodName: ChangeHealth
   - assembly: Assembly-CSharp
     fullTypeName: Movement
-    methodName: ChangeMaxHealth
+    methodName: ChangeBuletDamage
   - assembly: Assembly-CSharp
     fullTypeName: Movement
-    methodName: ChangeSpeed
+    methodName: ChangebuletSpeed
   - assembly: Assembly-CSharp
     fullTypeName: Movement
     methodName: ChangeReload
   - assembly: Assembly-CSharp
     fullTypeName: Movement
-    methodName: ChangeBuletDamage
+    methodName: ChangeSpeed
   - assembly: Assembly-CSharp
     fullTypeName: Movement
-    methodName: ChangebuletSpeed
+    methodName: ChangeMaxHealth
   - assembly: Assembly-CSharp
     fullTypeName: SpawnEnemy
     methodName: QuitScene
@@ -187,39 +180,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16622}
-    - Class: 114
       Script: {instanceID: 16624}
     - Class: 114
-      Script: {instanceID: 16628}
+      Script: {instanceID: 16626}
     - Class: 114
-      Script: {instanceID: 17340}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 17636}
+      Script: {instanceID: 17342}
     - Class: 114
-      Script: {instanceID: 18028}
+      Script: {instanceID: 17638}
     - Class: 114
-      Script: {instanceID: 18300}
+      Script: {instanceID: 18030}
     - Class: 114
-      Script: {instanceID: 19494}
+      Script: {instanceID: 18302}
     - Class: 114
-      Script: {instanceID: 20934}
+      Script: {instanceID: 19496}
     - Class: 114
-      Script: {instanceID: 21390}
+      Script: {instanceID: 20936}
     - Class: 114
-      Script: {instanceID: 21876}
+      Script: {instanceID: 21392}
     - Class: 114
-      Script: {instanceID: 22378}
+      Script: {instanceID: 21878}
     - Class: 114
-      Script: {instanceID: 22512}
+      Script: {instanceID: 22380}
     - Class: 114
-      Script: {instanceID: 22816}
+      Script: {instanceID: 22514}
     - Class: 114
-      Script: {instanceID: 23138}
+      Script: {instanceID: 22818}
     - Class: 114
-      Script: {instanceID: 23262}
+      Script: {instanceID: 23140}
     - Class: 114
-      Script: {instanceID: 24402}
+      Script: {instanceID: 23264}
+    - Class: 114
+      Script: {instanceID: 24404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -262,31 +255,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16622}
-    - Class: 114
       Script: {instanceID: 16624}
     - Class: 114
-      Script: {instanceID: 16628}
+      Script: {instanceID: 16626}
     - Class: 114
-      Script: {instanceID: 17464}
+      Script: {instanceID: 16630}
     - Class: 114
-      Script: {instanceID: 18028}
+      Script: {instanceID: 17466}
     - Class: 114
-      Script: {instanceID: 18300}
+      Script: {instanceID: 18030}
     - Class: 114
-      Script: {instanceID: 19906}
+      Script: {instanceID: 18302}
     - Class: 114
-      Script: {instanceID: 20060}
+      Script: {instanceID: 19908}
     - Class: 114
-      Script: {instanceID: 20400}
+      Script: {instanceID: 20062}
     - Class: 114
-      Script: {instanceID: 21390}
+      Script: {instanceID: 20402}
     - Class: 114
-      Script: {instanceID: 22378}
+      Script: {instanceID: 21392}
     - Class: 114
-      Script: {instanceID: 22816}
+      Script: {instanceID: 22380}
     - Class: 114
-      Script: {instanceID: 23924}
+      Script: {instanceID: 22818}
+    - Class: 114
+      Script: {instanceID: 23926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1808,4 +1801,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Menu.unity
   - Assets/Game.unity
-  playerPath: C:/Users/matus/Documents/Programovanie/UnityGames/Shooten/Shootenv1.0/Shooten.apk
+  playerPath: C:/Users/matus/Documents/Programovanie/UnityGames/Shooten/Shooten_v1.0/Shooten.apk
