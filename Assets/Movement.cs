@@ -76,19 +76,41 @@ public class Movement : MonoBehaviour
     private AudioSource ShootingSound;
     private AudioSource HitSound;
     private void Start()
-    {
+    {     
         walkingSound = gameObject.GetComponents<AudioSource>()[0];
         ShootingSound = gameObject.GetComponents<AudioSource>()[1];
         HitSound = gameObject.GetComponents<AudioSource>()[3];
         CoinText = coinText;
+        CoinText.text = Money.ToString() + "c";
         health = MaxHealth;
         StartCoroutine(ShootOnTime());
     }
+    [SerializeField] private TextMeshProUGUI score;
     public float Health
     {
         set
         {
-            if (0 > value) { GameOverScreen.SetActive(true); transform.GetChild(0).parent = transform.parent; Destroy(gameObject); gameObject.GetComponents<AudioSource>()[2].Play(); }
+            if (0 > value) 
+            { 
+                GameOverScreen.SetActive(true); transform.GetChild(0).parent = transform.parent; 
+                Destroy(gameObject); gameObject.GetComponents<AudioSource>()[2].Play();
+
+                float curentScore = SpawnEnemy.WaveNumber *  Mathf.Clamp(SpawnEnemy.Difficulty/10,3,10)*10;
+                PlayerPrefs.SetFloat("Money", Money / SpawnEnemy.WaveNumber);
+                if ( PlayerPrefs.HasKey("score"))
+                {
+                    
+                    if (PlayerPrefs.GetFloat("score") <curentScore)
+                    {
+                        PlayerPrefs.SetFloat("score", curentScore);
+                    }
+                }
+                else
+                {
+                    PlayerPrefs.SetFloat("score", curentScore);
+                }
+                score.text = curentScore.ToString();
+            }
             health = value; // Ensure health is clamped between 0 and 1
             healthBar.fillAmount = health/MaxHealth;
         }

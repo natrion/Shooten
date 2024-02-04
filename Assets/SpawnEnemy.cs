@@ -40,7 +40,7 @@ public class SpawnEnemy : MonoBehaviour
             {
                 enemyNumber++;
                 GameObject enemy = Instantiate(Enemy[Random.Range(0 , Enemy.Length)].gameObject);
-                enemy.transform.position =  Player.transform.position + new Vector3(Random.Range(-10f, 10f), Random.Range(-10f, 10f), Random.Range(-10f, 10f));
+                enemy.transform.position =  Player.transform.position + new Vector3(Random.Range(7f, 10f) * (Mathf.Round(Random.Range(0f,1f))*2-1), Random.Range(7f, 10f) * (Mathf.Round(Random.Range(0f, 1f)) * 2 - 1), 0);
                 enemy.SetActive(true);
                 yield return new WaitForSeconds(1);
             }

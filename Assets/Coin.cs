@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Movement.Money += CoinValue;
+            Movement.Money += CoinValue;           
             Movement.CoinText.text = Movement.Money.ToString() + "c";
             Destroy(gameObject);
         }
